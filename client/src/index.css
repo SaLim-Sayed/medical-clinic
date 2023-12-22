@@ -1,0 +1,13 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your styles go here */
+
+
+ @layer components{
+  .navbar   .active{
+    @apply bg-white w-full text-red-950  py-2 rounded-sm
+  }
+ }
